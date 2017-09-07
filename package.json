@@ -1,9 +1,9 @@
 {
   "name": "standarder",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "TODO",
   "main": "standarder.js",
-  "bin": "standarder",
+  "bin": { "standarder": "./bin/cli.js" },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

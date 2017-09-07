@@ -8,8 +8,8 @@ module.exports = {
   homepage: pkg.homepage,
   bugs: pkg.bugs.url,
   eslint: eslint, // pass any version of eslint >= 1.0.0
-  cmd: 'omnistandard', // should match the "bin" key in your package.json
-  tagline: 'Live by your own standards!', // displayed in output --help
+  cmd: 'standarder', // should match the "bin" key in your package.json
+  tagline: 'more standard, standarder', // displayed in output --help
   eslintConfig: {
     configFile: path.join( __dirname, 'eslintrc.json' )
   },
