@@ -1,26 +1,26 @@
 {
-  "name": "standarder",
+  "name": "spacestandard",
   "version": "0.0.3",
   "description": "TODO",
-  "main": "standarder.js",
+  "main": "spacestandard.js",
   "bin": {
-    "standarder": "./bin/cli.js"
+    "spacestandard": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "standarder"
+    "spacestandard"
   ],
   "author": "talmobi <talmo.christian@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/talmobi/standarder"
+    "url": "https://github.com/talmobi/spacestandard"
   },
-  "homepage": "https://github.com/talmobi/standarder",
+  "homepage": "https://github.com/talmobi/spacestandard",
   "bugs": {
-    "url": "https://github.com/talmobi/standarder/issues",
+    "url": "https://github.com/talmobi/spacestandard/issues",
     "email": "talmo.christian@gmail.com"
   },
   "dependencies": {
