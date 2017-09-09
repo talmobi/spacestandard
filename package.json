@@ -1,7 +1,7 @@
 {
   "name": "spacestandard",
   "version": "0.0.4",
-  "description": "TODO",
+  "description": "standard with spaces",
   "main": "spacestandard.js",
   "bin": {
     "spacestandard": "./bin/cli.js"
