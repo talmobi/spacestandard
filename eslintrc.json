@@ -2,7 +2,17 @@
   "extends": [ "standard", "standard-jsx" ],
   "rules": {
     "indent": [ "error", 2, {
-      "MemberExpression": "off"
+      "SwitchCase": 1,
+      "VariableDeclarator": 1,
+      "outerIIFEBody": 1,
+      "MemberExpression": "off",
+      "FunctionDeclaration": { "parameters": 1, "body": 1 },
+      "FunctionExpression": { "parameters": 1, "body": 1 },
+      "CallExpression": { "arguments": 1 },
+      "ArrayExpression": 1,
+      "ObjectExpression": 1,
+      "ImportDeclaration": 1,
+      "flatTernaryExpressions": false
     } ],
     "space-in-parens": [ "error", "always", {
       "exceptions": [ "empty" ]
